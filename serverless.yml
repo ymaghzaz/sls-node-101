@@ -8,6 +8,8 @@ provider:
 functions:
   hello:
     handler: handler.hello
+  getUser:
+    handler: getUser.handler
 
 plugins:
   - serverless-esbuild

@@ -5,6 +5,7 @@
     "serverless-esbuild": "^1.25.0"
   },
   "scripts": {
+    "run:local:getUser": "serverless invoke local --function getUser --path events/hello.json",
     "run:local:function": "serverless invoke local --function hello --path events/hello.json"
   },
   "name": "aws-node-typscript"
