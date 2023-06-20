@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.14.25",
+    "serverless": "^3.32.2",
+    "serverless-esbuild": "^1.25.0"
+  },
+  "scripts": {
+    "run:local:function": "serverless invoke local --function hello --path events/hello.json"
+  },
+  "name": "aws-node-typscript"
+}
